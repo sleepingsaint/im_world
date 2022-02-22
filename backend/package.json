@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "kurento-client": "^6.16.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/kurento-client": "^6.14.6",
+    "@types/node": "^17.0.18",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p ."
+  }
+}
