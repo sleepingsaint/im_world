@@ -53,5 +53,6 @@ That's it, now you can enjoy the amazing opencv functions.
 
 * Implement different filters and connect to the media pipeline.
 * Implement Kubernetes cluster to manage multiple KMS instances.
+* Deploy the whole application to cloud.
 
 > Any Contributions or suggestions are appreciated :)
